@@ -274,9 +274,9 @@ img {
 }
 
 main .titulo-main-index {
-  filter: drop-shadow(1px 1px 10px rgba(237, 236, 236, 0.6705882353));
+  filter: drop-shadow(1px 1px 10px rgba(237, 236, 236, 0.5960784314));
   border-radius: 5px;
-  background-color: rgba(161, 161, 161, 0.2274509804);
+  background-color: rgba(161, 161, 161, 0.4666666667);
 }
 main .titulo-main-index h2 {
   text-align: center;

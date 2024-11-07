@@ -1,8 +1,9 @@
 
 main{
     section{
+        margin-top: 100px;
         div.contenedor-tittle{ 
-
+            
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -12,7 +13,7 @@ main{
 
             div.caja-titlle-horarios{
 
-                color: rgb(128, 41, 41);
+                color: rgb(255, 255, 255);
                 background-color: #ffffff2e;
                 text-align: center;
                 filter: drop-shadow(1px 1px 10px rgba(237, 236, 236, 0.6705882353));

@@ -1,11 +1,21 @@
 .boton-section1 {
 
     background-color: grey;
-    margin: 0rem 2rem;
-    padding: 0.4rem;
+    margin: 0px 100px;
+    padding: 10px;
     border-radius: 5px;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
+    &:hover {
+        padding: 15px;
+        transition: 500ms;
+     
+
+    }
+    // margin: 0rem 2rem;
+    // padding: 0.4rem;
+    // border-radius: 5px;
+    // margin-bottom: 2rem;
+    // margin-top: 1rem;
+
     
     a{
         color: white;
@@ -16,4 +26,5 @@
 
 .boton-section2 {
     @extend .boton-section1
+    
 }

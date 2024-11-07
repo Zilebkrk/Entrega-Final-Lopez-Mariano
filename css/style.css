@@ -207,6 +207,9 @@ main section div.contenedor-texto-img div.contenedor-acerca-de-img img {
   margin-bottom: 3rem;
 }
 
+main section {
+  margin-top: 100px;
+}
 main section div.contenedor-tittle {
   display: flex;
   flex-direction: column;
@@ -216,7 +219,7 @@ main section div.contenedor-tittle {
   padding: 1rem;
 }
 main section div.contenedor-tittle div.caja-titlle-horarios {
-  color: rgb(128, 41, 41);
+  color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.1803921569);
   text-align: center;
   filter: drop-shadow(1px 1px 10px rgba(237, 236, 236, 0.6705882353));
@@ -267,6 +270,7 @@ div.contenedor-cartas, div.contenedor-carta2 {
   text-align: center;
   padding: 1rem;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 img {
@@ -301,11 +305,13 @@ main .titulo-main-index h2 {
 }
 .boton-section1, .boton-section2 {
   background-color: grey;
-  margin: 0rem 2rem;
-  padding: 0.4rem;
+  margin: 0px 100px;
+  padding: 10px;
   border-radius: 5px;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+}
+.boton-section1:hover, .boton-section2:hover {
+  padding: 15px;
+  transition: 500ms;
 }
 .boton-section1 a, .boton-section2 a {
   color: white;

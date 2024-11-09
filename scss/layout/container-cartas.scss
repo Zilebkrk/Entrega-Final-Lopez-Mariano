@@ -19,22 +19,15 @@ div.contenedor-cartas{
         &:hover {
             transform: scale(2.5);
         }
-    }
-    
-    
+    }    
 }
 
 
 
-    img {
-   
-        width: 120px;
-        border-radius: 5px;
-
-    }
-
-
-
+img {   
+    width: 120px;
+    border-radius: 5px;
+}
 
 .contenedor-carta2{
     @extend .contenedor-cartas

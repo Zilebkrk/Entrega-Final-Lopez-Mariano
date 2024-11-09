@@ -1,8 +1,5 @@
 .boton-section1 {
-
-
     background-color: #9E2A2F; 
-
     margin: 0px 100px;
     padding: 1rem;
     border-radius: 5px;
@@ -10,19 +7,15 @@
     &:hover {
         border: solid 1px #C7A500;
         transition: 500ms;
-     
-
     }
 
     
     a{
         color: white;
         text-decoration: none;
-
     }
 }
 
 .boton-section2 {
-    @extend .boton-section1
-    
+    @extend .boton-section1    
 }

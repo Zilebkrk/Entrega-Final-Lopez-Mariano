@@ -29,13 +29,12 @@ main{
                     width: 300px;
                     margin-bottom: 3rem;
 
-                        transition: 1s;
-                        &:hover {
-                            transform: scale(1.5);
-                        }
+                    transition: 1s;
+                    &:hover {
+                        transform: scale(1.5);
+                    }
                 }
             }
         }
     }
-
 }

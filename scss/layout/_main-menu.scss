@@ -7,10 +7,9 @@ main{
         margin: 1rem;
         padding: 1rem;
         text-align: center;
-        div.contenedor-titulo-menu{
 
-            background-color:  #A3B57D;
-            
+        div.contenedor-titulo-menu{
+            background-color:  #A3B57D;        
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -18,18 +17,16 @@ main{
             padding: 0.3rem;
             border-radius: 5px;
             color: #333333;
-            filter: drop-shadow(1px 1px 7px #c7a60077);
-            
+            filter: drop-shadow(1px 1px 7px #c7a60077);     
         }
-        section{
 
+        section{
             background-color: #A3B57D; 
             border-radius: 5px;
             padding: 1rem;
             box-shadow: 1px 1px 20px 7px #00000096;
 
             div.contenedor-texto{
-
                 color: #333333;
                 padding: 1rem;
                 border: solid 1px #000000;

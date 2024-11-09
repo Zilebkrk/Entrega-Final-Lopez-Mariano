@@ -8,6 +8,7 @@ header img {
 
 nav .contenedor-ul {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   border-bottom: solid 1px gray;
 }
@@ -17,6 +18,10 @@ nav .contenedor-ul ul {
 nav .contenedor-ul ul a {
   text-decoration: none;
   color: white;
+}
+nav .contenedor-ul ul a:hover {
+  font-size: large;
+  filter: drop-shadow(1px 1px 10px #f5d65c);
 }
 
 * {
@@ -64,7 +69,7 @@ main .contenedor-menu section {
   background-color: rgba(161, 161, 161, 0.2274509804);
   border-radius: 5px;
   padding: 1rem;
-  box-shadow: 5px 5px 15px;
+  box-shadow: 1px 1px 20px 7px rgba(0, 0, 0, 0.5882352941);
 }
 main .contenedor-menu section div.contenedor-texto, main .contenedor-menu section div.contenedor-texto3, main .contenedor-menu section div.contenedor-texto2 {
   color: white;
@@ -172,6 +177,7 @@ main section div.boton-reserva {
   justify-content: center;
 }
 main section div.boton-reserva button {
+  margin-bottom: 1rem;
   border-radius: 5px;
   padding: 0.5rem 1rem;
   background-color: rgba(161, 161, 161, 0.2274509804);
@@ -205,6 +211,10 @@ main section div.contenedor-texto-img div.contenedor-acerca-de-img img {
   border-radius: 5px;
   width: 300px;
   margin-bottom: 3rem;
+  transition: 1s;
+}
+main section div.contenedor-texto-img div.contenedor-acerca-de-img img:hover {
+  transform: scale(1.5);
 }
 
 main section {
@@ -251,15 +261,15 @@ div.contenedor-texto-section1, div.contenedor-texto-section2 {
   padding-top: 2rem;
   padding: 0.6rem;
 }
-div.contenedor-texto-section1 .favorita:nth-child(1), div.contenedor-texto-section2 .favorita:nth-child(1) {
+div.contenedor-texto-section1 p:nth-child(1), div.contenedor-texto-section2 p:nth-child(1) {
   font-size: 1rem;
 }
-div.contenedor-texto-section1 h3, div.contenedor-texto-section2 h3 {
+div.contenedor-texto-section1 h3:nth-child(2), div.contenedor-texto-section2 h3:nth-child(2) {
   font-size: 2rem;
   text-align: center;
 }
-div.contenedor-texto-section1 div:nth-child(3), div.contenedor-texto-section2 div:nth-child(3) {
-  padding-top: 1rem;
+div.contenedor-texto-section1 p:nth-child(3), div.contenedor-texto-section2 p:nth-child(3) {
+  padding: 1rem;
 }
 
 div.contenedor-cartas, div.contenedor-carta2 {
@@ -271,14 +281,24 @@ div.contenedor-cartas, div.contenedor-carta2 {
   padding: 1rem;
   justify-content: center;
   padding-bottom: 50px;
+  box-shadow: 1px 1px 20px 7px rgba(0, 0, 0, 0.5882352941);
+  background-image: linear-gradient(to right, rgba(161, 158, 158, 0.2274509804), rgba(58, 57, 57, 0.6470588235));
+}
+div.contenedor-cartas img:nth-child(1), div.contenedor-carta2 img:nth-child(1) {
+  transition: 1s;
+}
+div.contenedor-cartas img:nth-child(1):hover, div.contenedor-carta2 img:nth-child(1):hover {
+  transform: scale(2.5);
 }
 
 img {
-  padding-top: 1rem;
   width: 120px;
   border-radius: 5px;
 }
 
+main .tiempo {
+  transition: 1s;
+}
 main .titulo-main-index {
   filter: drop-shadow(1px 1px 10px rgba(237, 236, 236, 0.5960784314));
   border-radius: 5px;
@@ -304,13 +324,13 @@ main .titulo-main-index h2 {
   }
 }
 .boton-section1, .boton-section2 {
-  background-color: grey;
+  background-color: rgb(108, 107, 107);
   margin: 0px 100px;
-  padding: 10px;
+  padding: 1rem;
   border-radius: 5px;
 }
 .boton-section1:hover, .boton-section2:hover {
-  padding: 15px;
+  border: solid 1px #111;
   transition: 500ms;
 }
 .boton-section1 a, .boton-section2 a {

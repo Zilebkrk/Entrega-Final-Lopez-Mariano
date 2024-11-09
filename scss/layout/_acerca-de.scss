@@ -25,7 +25,12 @@ main{
                 img{
                     border-radius: 5px;
                     width: 300px;
-                    margin-bottom: 3rem ;
+                    margin-bottom: 3rem;
+
+                        transition: 1s;
+                        &:hover {
+                            transform: scale(1.5);
+                        }
                 }
             }
         }

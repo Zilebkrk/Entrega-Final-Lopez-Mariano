@@ -13,6 +13,7 @@ nav {
     .contenedor-ul{
 
             display: flex;
+            align-items: center;
             justify-content: space-around;
             border-bottom: solid 1px gray;
 
@@ -21,6 +22,12 @@ nav {
                 a{
                     text-decoration: none;
                     color: white;
+                    &:hover {
+
+                        font-size: large;
+                        filter: drop-shadow(1px 1px 10px #f5d65c);
+                        
+                    }
                 }
             }
     }

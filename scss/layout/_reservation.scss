@@ -7,6 +7,7 @@ main{
             justify-content: center;
 
             .caja-titulo-reservation{
+                
                 width: 265px;
                 margin: 0 auto;
                 color: white;
@@ -27,7 +28,9 @@ main{
         }
 
         div.container-reserva{
-            
+
+
+
             div.caja-reserva {
                 width: 265px;
                 margin: 0 auto;
@@ -60,12 +63,14 @@ main{
         }
 
         div.boton-reserva{
+
             width: 39.55px;
             margin: 0 auto;
             display: flex;
             justify-content: center;
 
             button{
+                margin-bottom: 1rem;
                 border-radius: 5px;
                 padding: 0.5rem 1rem;
                 background-color: #a1a1a13a;
@@ -74,4 +79,6 @@ main{
             }
         }
     }
+
+
 }

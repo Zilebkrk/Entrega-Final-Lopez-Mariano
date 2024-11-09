@@ -1,11 +1,13 @@
 .boton-section1 {
 
-    background-color: grey;
+    background-color: rgb(108, 107, 107);
+
     margin: 0px 100px;
-    padding: 10px;
+    padding: 1rem;
     border-radius: 5px;
+
     &:hover {
-        padding: 15px;
+        border: solid 1px #111;
         transition: 500ms;
      
 

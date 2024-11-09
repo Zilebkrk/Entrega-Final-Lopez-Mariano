@@ -8,7 +8,6 @@ header img {
 
 nav .contenedor-ul {
   display: flex;
-  align-items: center;
   justify-content: space-around;
   border-bottom: solid 1px gray;
 }
@@ -221,9 +220,6 @@ main section div.contenedor-texto-img div.contenedor-acerca-de-img img:hover {
   transform: scale(1.5);
 }
 
-main section {
-  margin-top: 100px;
-}
 main section div.contenedor-tittle {
   display: flex;
   flex-direction: column;
@@ -253,9 +249,6 @@ main section div.contenedor div.cajas-horarios {
   margin-bottom: 1rem;
   margin: 1rem;
   background-color: #708238;
-}
-main section div.contenedor div.cajas-horarios img {
-  width: 50px;
 }
 main section div.contenedor div.cajas-horarios ul {
   list-style-type: none;
@@ -341,6 +334,12 @@ main .titulo-main-index h2 {
 .boton-section1 a, .boton-section2 a {
   color: white;
   text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+  a {
+    font-size: 13px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

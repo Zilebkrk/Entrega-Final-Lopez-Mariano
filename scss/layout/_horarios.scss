@@ -1,7 +1,6 @@
 @import "../utilities/variables";
 main{
     section{
-        margin-top: 100px;
         div.contenedor-tittle{             
             display: flex;
             flex-direction: column;
@@ -35,9 +34,6 @@ main{
                 margin-bottom: 1rem;
                 margin: 1rem;
                 background-color: $color-oliva;
-                img{
-                    width: 50px;
-                }
                 ul{
                     list-style-type: none;
                 }

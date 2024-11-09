@@ -1,29 +1,27 @@
+@import "../utilities/variables";
 main{
     section{
 
         .contenedor-titulo{
-
             display: flex;
             justify-content: center;
 
-            .caja-titulo-reservation{
-                
+            .caja-titulo-reservation{                
                 width: 265px;
                 margin: 0 auto;
-                color: white;
+                color: $color-palabas;
                 border-radius: 5px;
                 margin: 1rem;
                 padding: 0.3rem 0.5rem;
-                background-color: #ffffff2e;
+                background-color: $color-oliva;
                 text-align: center;
-                filter: drop-shadow(1px 1px 10px rgba(237, 236, 236, 0.6705882353));
+                box-shadow: 1px 1px 20px 7px #00000096;
                 h1{
                     font-size: 25px;
                 }
                 h3{
                     font-size: 15px;
-                }
-    
+                }   
             }
         }
 
@@ -36,34 +34,30 @@ main{
                 margin: 0 auto;
                 margin-top: 2rem;
                 margin-bottom: 2rem;
-                background-color: #a1a1a13a;
+                background-color: $color-oliva;
                 border-radius: 5px;
-                box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.376);
-                color: white;
+                box-shadow: 1px 1px 20px 7px #00000096;
+                color: $color-palabas;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
     
                 div:nth-child(1){
-                    padding: 1rem;
-    
+                    padding: 1rem;    
                 }
     
                 div:nth-child(2){
                     padding: 1rem;
-    
                 }
     
                 div:nth-child(3){
                     padding: 1rem;
-    
                 }
             }
         }
 
         div.boton-reserva{
-
             width: 39.55px;
             margin: 0 auto;
             display: flex;
@@ -73,12 +67,12 @@ main{
                 margin-bottom: 1rem;
                 border-radius: 5px;
                 padding: 0.5rem 1rem;
-                background-color: #a1a1a13a;
+                background-color: #9E2A2F;
                 color: white;
-
+                &:active {
+                    border: solid 1px #C7A500;
+                }
             }
         }
     }
-
-
 }

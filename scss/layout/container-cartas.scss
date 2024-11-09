@@ -1,3 +1,4 @@
+@import "../utilities/variables";
 
 
 div.contenedor-cartas{
@@ -11,7 +12,7 @@ div.contenedor-cartas{
     justify-content: center;
     padding-bottom: 50px;
     box-shadow: 1px 1px 20px 7px #00000096;
-    background-image: linear-gradient(to right, #a19e9e3a, #3a3939a5);
+    background-color:  $color-oliva;
 
     img:nth-child(1) {
         transition: 1s;

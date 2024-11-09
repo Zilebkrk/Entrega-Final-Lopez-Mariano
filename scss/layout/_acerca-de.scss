@@ -1,7 +1,9 @@
+@import "../utilities/variables";
 main{
     section{
         div.caja-acerca-de-titulo{
-            background-color: #ffffff2e;
+            box-shadow: 1px 1px 20px 7px #00000096;
+            background-color: $color-oliva;
             text-align: center;
             margin: 1rem;
             border-radius: 5px;
@@ -9,7 +11,7 @@ main{
             color: white;
         }
         div.contenedor-texto-img{
-            box-shadow: 5px 5px 15px black;
+            box-shadow: 1px 1px 20px 7px #00000096;
             border-radius: 5px;
             text-align: justify;
             color: white;
@@ -18,7 +20,7 @@ main{
             display: flex;
             flex-direction: column;
             justify-content: center;
-            background-color: #a1a1a13a;
+            background-color: $color-oliva;
             
             div.contenedor-acerca-de-img{
                 text-align: center;

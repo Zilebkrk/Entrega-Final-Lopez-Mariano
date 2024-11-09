@@ -12,9 +12,13 @@ nav .contenedor-ul {
   border-bottom: solid 1px gray;
 }
 nav .contenedor-ul ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 nav .contenedor-ul ul a {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   color: white;
 }
